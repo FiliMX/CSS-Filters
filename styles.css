@@ -83,6 +83,31 @@ figure{
 	filter: grayscale(1);
 }
 
+.image .hue-rotate{
+	-webkit-filter: hue-rotate(40deg);
+	filter: hue-rotate(40deg);
+}
+
+.image .invert{
+	-webkit-filter: invert(1);
+	filter: invert(1);
+}
+
+.image .opacity{
+	-webkit-filter: opacity(0.3);
+	filter: opacity(0.3);
+}
+
+.image .saturate{
+	-webkit-filter: saturate(3);
+	filter: saturate(3);
+}
+
+.image .sepia{
+	-webkit-filter: sepia(1);
+	filter: sepia(1);
+}
+
 .footer{
 	font-size: 1.2em;
 	color: #F43E4D;
